@@ -1,1 +1,162 @@
+body {
+  font-size: 16px;
+  background-color: #FFFFFF;
+  font-family: 'Helvetica', sans-serif;
 
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #222222;
+  border-radius: 0;
+  border: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Verdana', serif;
+  color: #FF4533;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+ .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #FFFFFF;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+
+}
+
+#nav-list {
+  margin-top: 10px;
+
+}
+#nav-list a {
+  color: #FFFFFF;
+  text-align: center;
+ 
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+  }
+
+/* END HEADER */
+
+
+
+.container{
+	width: 100%;
+}
+
+.container h1{
+	text-align: center;
+	padding-bottom: 40px;
+ }
+
+
+
+.container .section {
+	background-color: #555555;
+	color: #FFFFFF;
+	padding: 50px;
+	height: 1000px;
+}
+
+.container h2{
+	text-align: center;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+
+ #collapsable-nav{
+ 	background-color: #555555;
+
+
+ } 
+
+
+  }
+  #collapsable-nav a span {
+    font-size: 1.2em;
+
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Home Page */
+ 
+  }
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
